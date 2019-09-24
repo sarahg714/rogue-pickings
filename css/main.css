@@ -1,0 +1,125 @@
+/*****base styles*****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+
+/*****Grid*****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+}
+
+.third-width {
+  width: 400px;
+
+}
+
+/*****header*****/
+
+header .half-width {
+  float: left;
+}
+header h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+header span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #77a466;
+  padding-left: 10px;
+  line-height: 23px;
+  font-weight: bold;
+
+}
+
+img#green-bean {
+  border-top: 4px solid #77a466;
+  border-bottom: 4px solid #77a466;
+}
+
+#welcome {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #77a466;
+}
+
+#contact {
+  width: 1200px;
+}
+
+.third-div-titles {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#specials {
+  height:207px;
+  width: 398px;
+  float: left;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+#specials ul li {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 15px;
+  color: #77a466;
+
+}
+
+#reviews {
+  height: 163px;
+  width: 398px;
+  float: left;
+  border: 1px solid #dedbdc;
+  padding: 21px 38px 23px 27px;
+}
+
+#contact {
+  height: 207px;
+  width: 335px;
+  float: right;
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+
+
+
+footer {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  clear: both;
+  padding: 24px 0 30px 0;
+}
+
+footer span {
+  font-family: 'Dancing Script', cursive;
+  color: #77a466;
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: 20px;
+}
