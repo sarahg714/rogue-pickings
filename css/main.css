@@ -62,9 +62,6 @@ img#green-bean {
   color: #77a466;
 }
 
-#contact {
-  width: 1200px;
-}
 
 .third-div-titles {
   text-transform: uppercase;
@@ -73,17 +70,15 @@ img#green-bean {
 }
 
 #specials {
-  height:207px;
   width: 398px;
+  height: 162px;
   float: left;
   border-top: 1px solid #dedbdc;
   border-bottom: 1px solid #dedbdc;
+  padding-top: 25px;
 }
 
-#specials ul li {
-  text-decoration: none;
-  list-style: none;
-  padding-bottom: 15px;
+#specials p { 
   color: #77a466;
 
 }
@@ -93,15 +88,16 @@ img#green-bean {
   width: 398px;
   float: left;
   border: 1px solid #dedbdc;
-  padding: 21px 38px 23px 27px;
+  padding: 24px 13px 0px 27px;
 }
 
 #contact {
-  height: 207px;
-  width: 335px;
+  height: 162px;
+  width: 337px;
   float: right;
   border-top: 1px solid #dedbdc;
   border-bottom: 1px solid #dedbdc;
+  padding: 25px 0px 0px 25px;
 }
 
 
