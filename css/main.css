@@ -1,121 +1,178 @@
-/*****base styles*****/
+html {
+	font-size: 16px;
+}
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  color: #333333;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+	flex-flow: row wrap;
 }
 
-/*****Grid*****/
-
-.full-width {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.half-width {
-  width: 600px;
-}
-
-.third-width {
-  width: 400px;
+.container{
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 
 }
 
-/*****header*****/
-
-header .half-width {
-  float: left;
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
 }
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	font-size: 0.75em;
+}
+
+p {
+	font-size: 0.875em;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+/*The widths are in a percentage!*/
+header {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
 header h1 {
-  text-transform: uppercase;
-  font-size: 30px;
-  line-height: 30px;
+	margin: 0;
+	padding: 38px 0;
+}
+header h1 span {
+	color: #77a466;
 }
 
-header span {
-  color: #77a466;
+header nav {
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875em;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
 }
 
-nav {
-  float: right;
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-flow: row wrap;
 }
 
-nav ul li {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #77a466;
-  padding-left: 10px;
-  line-height: 23px;
-  font-weight: bold;
-
+.main-image {
+	height: auto;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
 }
 
-img#green-bean {
-  border-top: 4px solid #77a466;
-  border-bottom: 4px solid #77a466;
+.main-title {
+	height: auto;
+}
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 25px;
 }
 
-#welcome {
-  text-transform: uppercase;
-  font-size: 18px;
-  color: #77a466;
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	border-top: 1px solid #eee;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-basis: auto;
+	flex-flow: column wrap;
 }
 
-
-.third-div-titles {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: bold;
+.section-two h4, .section-three h4 {
+	padding-left: 28px;
 }
 
-#specials {
-  width: 398px;
-  height: 162px;
-  float: left;
-  border-top: 1px solid #dedbdc;
-  border-bottom: 1px solid #dedbdc;
-  padding-top: 25px;
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
 }
 
-#specials p { 
-  color: #77a466;
-
+{
 }
 
-#reviews {
-  height: 163px;
-  width: 398px;
-  float: left;
-  border: 1px solid #dedbdc;
-  padding: 24px 13px 0px 27px;
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
 }
 
-#contact {
-  height: 162px;
-  width: 337px;
-  float: right;
-  border-top: 1px solid #dedbdc;
-  border-bottom: 1px solid #dedbdc;
-  padding: 25px 0px 0px 25px;
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 21px;
 }
 
+.address {
+	font-size: 1em;
+	line-height: 24px;
+}
 
-
-
+/*The widths are in a percentage!*/
 footer {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  clear: both;
-  padding: 24px 0 30px 0;
+	border-top: 3px solid #eee;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
 footer span {
-  font-family: 'Dancing Script', cursive;
-  color: #77a466;
-  text-transform: lowercase;
-  font-weight: bold;
-  font-size: 20px;
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
 }
