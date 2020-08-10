@@ -179,7 +179,7 @@ footer span {
 
 }
 
-@ media (min-width: 1200px) {
+@media (min-width: 1200px) {
 	/*-- desktop styles here --*/
 	header {
 		justify-content: space-between;
